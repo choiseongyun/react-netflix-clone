@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, {useEffect, useState} from 'react';
 import axios from '../api/axios';
 import MovieModal from './MovieModal';
 import "./Row.css";
