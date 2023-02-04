@@ -1,10 +1,9 @@
-import Nav from "./components/Nav";
-import './App.css';
-
-import Footer from "./components/Footer";
 import { Outlet, Route, Routes } from "react-router-dom";
+import './App.css';
+import Footer from "./components/Footer";
 import Mainpage from "./pages/MainPage";
 import DetailPage from "./pages/DetailPage";
+import Nav from "./components/Nav";
 import SearchPage from "./pages/SearchPage";
 
 

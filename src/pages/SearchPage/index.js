@@ -46,7 +46,7 @@ export default function SearchPage() {
                     "https://image.tmdb.org/t/p/w500" + movie.backdrop_path;
                 return(
                     <div className='movie' key={movie.id}>
-                        <div className='movie__column-poster'>
+                        <div onClick={() => navigate(`/${movie.id}`)} className='movie__column-poster'>
                             <img src={movieImageUrl} alt="무비무비열매" className='movie__poster' />
             
                         </div>
