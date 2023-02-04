@@ -19,8 +19,8 @@ export default function DetailPage() {
     <section>
       <img
         className="modal__poster-img"
-        src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`}
-        alt="임포스터"
+        src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`}
+        alt="poster"
       />
 
     </section>
